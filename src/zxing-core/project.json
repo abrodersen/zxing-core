@@ -1,0 +1,18 @@
+{
+  "version": "0.14.0.0",
+  "compile": [ "**/*.cs" ],
+  "authors": [ "ZXing.Net authors", "Aaron Brodersen" ],
+  "dependencies": { },
+  "frameworks" : {
+    "dnxcore50": {
+      "dependencies": {
+        "NETStandard.Library": "1.0.0-rc2-23811"
+      }
+    },
+    "net46": {
+      "frameworkAssemblies": {
+        "System.Numerics": "4.0.0"
+      }
+    }
+  }
+}
